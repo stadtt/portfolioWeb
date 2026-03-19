@@ -23,6 +23,8 @@ const App = () => {
                 <div className="hidden md:block">
                     <div className="ml-10 flex items-baseline space-x-4 text-sm">
                         <a href="#biography" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Biography</a>
+                        <a href="#philosophy" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Philosophy</a>
+                        <a href="#documents" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Documents</a>
                         <a href="#credentials" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Credentials</a>
                         <a href="#academic-work" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Academic Work</a>
                         <a href="#capstone" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Capstone</a>
@@ -39,8 +41,8 @@ const App = () => {
           <div className="w-32 h-32 bg-gray-800 rounded-full mb-6 border-4 border-blue-500 overflow-hidden flex items-center justify-center">
               <span className="text-gray-500 text-sm">Photo</span>
           </div>
-          <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">John Doe</h1>
-          <p className="text-xl text-gray-400 max-w-2xl">Software Engineer & Tech Enthusiast</p>
+          <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">Shaffaq Hai</h1>
+          <p className="text-xl text-gray-400 max-w-2xl">Computer Programming Student & Tech Enthusiast</p>
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24 pb-24">
@@ -49,7 +51,63 @@ const App = () => {
           <section id="biography" className="scroll-mt-24">
               <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Biography</h2>
               <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 leading-relaxed">
-                  <p>Hello! I am a passionate software engineer with a strong foundation in computer science. I specialize in building scalable web applications, optimizing systems, and leading projects from conception to deployment. My journey in tech began with a curiosity about how things work, and it has evolved into a career dedicated to creating efficient, user-centric software solutions.</p>
+                  <p>Hello! I'm an enthusiastic Computer Programming student currently pursuing my diploma in Computer Programming at George Brown Polytechnic. 
+                    My journey into tech started with a deep curiosity about how games are developed. This curiosity then expanded outwards towards software architecture.
+                     Currently, I'm immersing myself
+                     in coursework that spans data structures, full-stack web development, 
+                     and machine learning. I enjoy tackling logic puzzles
+                     and transforming creative ideas into functional, clean code.</p>
+                  
+                  <p className="mt-4">Beyond the classroom, I spend my time exploring hackathons, 
+                    delving into emerging frameworks, and building personal projects to sharpen my skills.
+                     I am eager to transition my academic foundation into real-world applications and
+                      am actively seeking opportunities to learn, grow, and contribute alongside experienced engineering teams.</p>
+              </div>
+          </section>
+
+          {/* Philosophy / Career Goals */}
+          <section id="philosophy" className="scroll-mt-24">
+              <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Philosophy & Career Goals</h2>
+              <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 leading-relaxed space-y-6">
+                  <blockquote className="border-l-4 border-blue-500 pl-4 py-1 text-lg italic text-gray-400">
+                      "We are the facilitators of our own creative evolution." <span className="text-sm font-semibold text-gray-500">— Bill Hicks</span>
+                  </blockquote>
+                  <p>
+                      Drawing from my early experiences tinkering with systems to my current role building scalable web applications, I have always believed that technology is a medium for continuous creative evolution. My motivation stems from a deeply rooted desire to solve complex problems and improve user experiences. As an engineer, my role is not merely to write code, but to facilitate innovation, bridge the gaps between communication and technical implementation, and construct tools that genuinely empower others.
+                  </p>
+                  <p>
+                      Looking toward the future, my ambition is to lead technical teams that build impactful, accessible, and highly optimized software. I believe that by maintaining critical reflection, fostering clear communication, and embracing the ever-changing landscape of software engineering, we can actively shape the systems that will drive tomorrow's creative breakthroughs and business successes.
+                  </p>
+              </div>
+          </section>
+
+          {/* Resume & Cover Letter */}
+          <section id="documents" className="scroll-mt-24">
+              <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Documents</h2>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                  {/* Resume */}
+                  <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 flex flex-col items-center justify-center text-center">
+                      <svg className="w-16 h-16 text-blue-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                      <h3 className="text-xl font-bold text-white mb-2">My Resume</h3>
+                      <p className="text-sm text-gray-400 mb-6">View my complete work history, education, and technical skills.</p>
+                      <div className="flex space-x-4">
+                          <a href="#download-resume" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition-colors">Download PDF</a>
+                          <a href="#view-resume" className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded transition-colors border border-gray-700">View Online</a>
+                      </div>
+                  </div>
+
+                  {/* Cover Letter */}
+                  <div className="bg-gray-900 p-8 rounded-xl border border-gray-800">
+                      <h3 className="text-xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Cover Letter (Sample)</h3>
+                      <div className="text-sm text-gray-400 space-y-3 font-serif bg-black/30 p-4 rounded border border-gray-800 h-64 overflow-y-auto">
+                          <p>Dear Hiring Manager,</p>
+                          <p>I am writing to express my strong interest in the Software Engineer position at [Company Name]. With a solid foundation in computer science and hands-on experience developing scalable web applications, I am eager to bring my technical expertise and problem-solving skills to your innovative team.</p>
+                          <p>In my recent academic and professional projects, I have successfully designed microservices architectures, optimized complex database queries, and implemented real-time communication systems. My capstone project—an end-to-end task management system for remote teams—resulted in a highly accessible and responsive platform, demonstrating my ability to see a product through from requirements gathering to final deployment.</p>
+                          <p>I am particularly drawn to [Company Name]'s mission because it aligns with my personal philosophy that software should empower its users and facilitate creative evolution. I am confident that my critical thinking abilities, collaborative mindset, and passion for continuous learning make me a strong fit for this role.</p>
+                          <p>Thank you for your time and consideration. I look forward to the possibility of discussing how my background, skills, and enthusiasms can contribute to the continued success of your engineering department.</p>
+                          <p>Sincerely,<br/>John Doe</p>
+                      </div>
+                  </div>
               </div>
           </section>
 
