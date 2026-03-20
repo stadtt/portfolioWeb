@@ -28,7 +28,6 @@ const App = () => {
                         <a href="#credentials" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Credentials</a>
                         <a href="#academic-work" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Academic Work</a>
                         <a href="#capstone" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Capstone</a>
-                        <a href="#professional-work" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">Professional</a>
                         <a href="#more" className="hover:text-blue-400 transition-colors px-3 py-2 rounded-md">More</a>
                     </div>
                 </div>
@@ -128,7 +127,21 @@ const App = () => {
                       <p className="text-blue-400 mt-1">George Brown Polytechnic</p>
                       <p className="text-sm text-gray-500 mt-2">Graduated: April 2026 | GPA: 3.9/4.0</p>
                   </div>
+
+                  <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
+                      <h3 className="text-xl font-semibold text-white">Deans List Of Honor</h3>
+                      <p className="text-blue-400 mt-1">George Brown Polytechnic</p>
+                      <p className="text-sm text-gray-500 mt-2">Fall 2023 - Winter 2026</p>
+                  </div>
+
+                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
+                        <h3 className="text-xl font-semibold text-white">George Brown Polytechnic Transcript</h3>
+                        <a href="#" className="text-blue-400 mt-1">View Transcript</a>
+                        <p className="text-sm text-gray-500 mt-2">Fall 2023 - Winter 2026</p>
+                  </div>
               </div>
+              
+              
           </section>
 
           {/* Academic Work Experience */}
@@ -137,28 +150,33 @@ const App = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {/* Spot 1 */}
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-lg font-bold text-white">Data Structures Visualization</h3>
-                      <p className="text-sm text-gray-400 mt-2">Developed a visualizer for sorting algorithms using Java and JavaFX to help students understand runtime complexities.</p>
+                      <h3 className="text-lg font-bold text-white">Brothers Oats</h3>
+                      <p className="text-sm text-gray-400 mt-2">Utilized C# and ASP.Net Core to develop a RESTful API for a mock e-commerce platform, implementing user authentication and product management features.</p>
+                      <a href="https://github.com/stadtt/comp2139_assignment" className="text-blue-400 mt-2 inline-block">Git Hub Link &rarr;</a>
                   </div>
                   {/* Spot 2 */}
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-lg font-bold text-white">Campus Networking Project</h3>
-                      <p className="text-sm text-gray-400 mt-2">Designed a simulated local area network for a fictional college campus utilizing Cisco Packet Tracer.</p>
+                      <h3 className="text-lg font-bold text-white">Gomoku </h3>
+                      <p className="text-sm text-gray-400 mt-2">Created Gomuku utilizing Depth First Search algorithm for optimal move selection.</p>
+                      <a href="https://github.com/alwaysandy/Gomoku-MinMax" className="text-blue-400 mt-2 inline-block">Git Hub Link &rarr;</a>
                   </div>
                   {/* Spot 3 */}
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-lg font-bold text-white">Machine Learning Predictor</h3>
-                      <p className="text-sm text-gray-400 mt-2">Created a Python-based ML model to predict housing prices using Pandas, Scikit-learn, and Matplotlib.</p>
+                      <h3 className="text-lg font-bold text-white">Employee Management System</h3>
+                      <p className="text-sm text-gray-400 mt-2">Using React and Node.js to build a full-stack application for managing employee information and performance reviews.</p>
+                      <a href="https://github.com/stadtt/101500534_COMP3123_Assignment2" className="text-blue-400 mt-2 inline-block">Git Hub Link &rarr;</a>
                   </div>
                   {/* Spot 4 */}
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-lg font-bold text-white">E-Commerce DB Architecture</h3>
-                      <p className="text-sm text-gray-400 mt-2">Structured a relational database using PostgreSQL for a mock online store, optimizing complex queries.</p>
+                      <h3 className="text-lg font-bold text-white">Capstone Project</h3>
+                      <p className="text-sm text-gray-400 mt-2">An end-to-end task management system designed specifically for remote engineering teams.</p>
+                      <a href="https://github.com/theLegasea/CBC_BSWA" className="text-blue-400 mt-2 inline-block">Git Hub Link &rarr;</a>
                   </div>
                   {/* Spot 5 */}
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-lg font-bold text-white">IoT Weather Station</h3>
-                      <p className="text-sm text-gray-400 mt-2">Programmed a Raspberry Pi to collect environmental data and push it to a cloud dashboard via REST API.</p>
+                      <h3 className="text-lg font-bold text-white">Microservices Implementation</h3>
+                      <p className="text-sm text-gray-400 mt-2">Designed and implemented a microservices architecture using Java, Spring Boot, Rest API and Docker.</p>
+                      <a href="https://gitlab.com/54M44R/COMP3095-Assignment" className="text-blue-400 mt-2 inline-block">Git Hub Link &rarr;</a>
                   </div>
               </div>
           </section>
@@ -235,10 +253,12 @@ const App = () => {
           </section>
 
           {/* Professional Work Samples */}
+{/*           
           <section id="professional-work" className="scroll-mt-24">
               <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Professional Work Samples</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  {/* Sample 1 */}
+                  
+
                   <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden hover:border-blue-500/50 transition-colors group">
                       <div className="h-40 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
                           <span className="text-gray-500">Project Screenshot</span>
@@ -249,7 +269,7 @@ const App = () => {
                           <a href="#" className="text-blue-400 hover:text-blue-300 text-sm font-semibold">View Case Study &rarr;</a>
                       </div>
                   </div>
-                  {/* Sample 2 */}
+                 
                   <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden hover:border-blue-500/50 transition-colors group">
                       <div className="h-40 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
                           <span className="text-gray-500">Project Screenshot</span>
@@ -260,7 +280,7 @@ const App = () => {
                           <a href="#" className="text-blue-400 hover:text-blue-300 text-sm font-semibold">View Code Snippets &rarr;</a>
                       </div>
                   </div>
-                  {/* Sample 3 */}
+              
                   <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden hover:border-blue-500/50 transition-colors group">
                       <div className="h-40 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
                           <span className="text-gray-500">Project Screenshot</span>
@@ -272,14 +292,14 @@ const App = () => {
                       </div>
                   </div>
               </div>
-          </section>
+          </section> */}
 
           {/* Additional Information */}
           <section id="more" className="scroll-mt-24">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                   
                   {/* Volunteer Work */}
-                  <div className="col-span-1">
+                  {/* <div className="col-span-1">
                       <h2 className="text-2xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Community Service</h2>
                       <ul className="space-y-4">
                           <li className="bg-gray-900 p-4 rounded-lg border border-gray-800">
@@ -291,7 +311,7 @@ const App = () => {
                               <p className="text-sm text-gray-400 mt-1">Volunteered to set up and maintain the local network and computer lab for a non-profit.</p>
                           </li>
                       </ul>
-                  </div>
+                  </div> */}
 
                   {/* Letters of Recommendation */}
                   <div className="col-span-1">
@@ -299,8 +319,8 @@ const App = () => {
                       <ul className="space-y-4">
                           <li className="bg-gray-900 p-4 rounded-lg border border-gray-800 flex items-center justify-between">
                               <div>
-                                  <h4 className="font-bold text-white">Dr. Jane Smith</h4>
-                                  <p className="text-sm text-gray-400">Professor of Computer Science</p>
+                                  <h4 className="font-bold text-white">Andrew Sas</h4>
+                                  <p className="text-sm text-gray-400">Junior Soft Engineer</p>
                               </div>
                               <a href="#" className="text-blue-400 hover:text-white transition-colors">
                                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
@@ -331,15 +351,7 @@ const App = () => {
                                   <p className="text-sm text-gray-400">Fall 2020 - Spring 2023</p>
                               </div>
                           </li>
-                          <li className="bg-gray-900 p-4 rounded-lg border border-gray-800 flex gap-3">
-                              <div className="text-yellow-500 mt-1">
-                                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                              </div>
-                              <div>
-                                  <h4 className="font-bold text-white">1st Place - Univ Hackathon</h4>
-                                  <p className="text-sm text-gray-400">Best Innovative Software Solution, 2022</p>
-                              </div>
-                          </li>
+                          
                       </ul>
                   </div>
 
@@ -350,11 +362,11 @@ const App = () => {
 
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800 py-8 text-center text-gray-500">
-          <p>&copy; 2023 John Doe. All rights reserved.</p>
+          <p>&copy; 2026 Shaffaq Hai. All rights reserved.</p>
           <div className="mt-4 flex justify-center space-x-4">
-              <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-white transition-colors">GitHub</a>
-              <a href="#" className="hover:text-white transition-colors">Email</a>
+              <a href="https://www.linkedin.com/in/shaffaq-hai-97621929b" className="hover:text-white transition-colors">LinkedIn</a>
+              <a href="https://github.com/stadtt" className="hover:text-white transition-colors">GitHub</a>
+              <a href="mailto:shaffaq.hai@georgebrown.ca" className="hover:text-white transition-colors">Email</a>
           </div>
       </footer>
     </div>
