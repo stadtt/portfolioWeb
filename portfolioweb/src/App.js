@@ -70,13 +70,20 @@ const App = () => {
               <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Philosophy & Career Goals</h2>
               <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 leading-relaxed space-y-6">
                   <blockquote className="border-l-4 border-blue-500 pl-4 py-1 text-lg italic text-gray-400">
-                      "We are the facilitators of our own creative evolution." <span className="text-sm font-semibold text-gray-500">— Bill Hicks</span>
+                      "A pile of rocks ceases to be a rock pile when somebody contemplates it with the idea of a cathedral in mind." <span className="text-sm font-semibold text-gray-500">— Antoine de Saint-Exupéry</span>
                   </blockquote>
                   <p>
-                      Drawing from my early experiences tinkering with systems to my current role building scalable web applications, I have always believed that technology is a medium for continuous creative evolution. My motivation stems from a deeply rooted desire to solve complex problems and improve user experiences. As an engineer, my role is not merely to write code, but to facilitate innovation, bridge the gaps between communication and technical implementation, and construct tools that genuinely empower others.
+                      Drawing from my early experiences tinkering with game development to my current study of building scalable
+                       web applications, I have always believed that technology is a medium for continuous creative 
+                       innovation. My motivation stems from a desire to learn different methodologies for solving complex problems and improve
+                        user experiences. As an engineer, my role is not merely to write code, but to facilitate innovation,
+                         bridge the gaps between communication and technical implementation,and construct tools that genuinely empower users.
                   </p>
                   <p>
-                      Looking toward the future, my ambition is to lead technical teams that build impactful, accessible, and highly optimized software. I believe that by maintaining critical reflection, fostering clear communication, and embracing the ever-changing landscape of software engineering, we can actively shape the systems that will drive tomorrow's creative breakthroughs and business successes.
+                      Looking towards the future, my ambition is to join a technical team that build impactful, accessible, and scalable
+                       software. I believe that by maintaining self-reflection, fostering the desire to learn,
+                       and embracing the ever-changing landscape of software engineering, we can actively shape the systems 
+                       that will drive tomorrow's creative breakthroughs and successes.
                   </p>
               </div>
           </section>
@@ -91,17 +98,17 @@ const App = () => {
                       <h3 className="text-xl font-bold text-white mb-2">My Resume</h3>
                       <p className="text-sm text-gray-400 mb-6">View my complete work history, education, and technical skills.</p>
                       <div className="flex space-x-4">
-                          <a href="#download-resume" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition-colors">Download PDF</a>
-                          <a href="#view-resume" className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded transition-colors border border-gray-700">View Online</a>
+                          <a href="/resume.docx" download="Shaffaq_Hai_Resume.docx" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition-colors">Download DOCX</a>
+                          <a href="/resume.docx" download="Shaffaq_Hai_Resume.docx" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition-colors">Download PDF</a>
                       </div>
                   </div>
 
                   {/* Cover Letter */}
                   <div className="bg-gray-900 p-8 rounded-xl border border-gray-800">
-                      <h3 className="text-xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Cover Letter (Sample)</h3>
+                      <h3 className="text-xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Cover Letter </h3>
                       <div className="text-sm text-gray-400 space-y-3 font-serif bg-black/30 p-4 rounded border border-gray-800 h-64 overflow-y-auto">
                           <p>Dear Hiring Manager,</p>
-                          <p>I am writing to express my strong interest in the Software Engineer position at [Company Name]. With a solid foundation in computer science and hands-on experience developing scalable web applications, I am eager to bring my technical expertise and problem-solving skills to your innovative team.</p>
+                          <p>I am writing to express my strong interest in the Software Engineer position at [Company Name]. With a solid foundation in full-stack development and hands-on experience developing scalable web applications, I am eager to bring my technical expertise and problem-solving skills to your innovative team.</p>
                           <p>In my recent academic and professional projects, I have successfully designed microservices architectures, optimized complex database queries, and implemented real-time communication systems. My capstone project—an end-to-end task management system for remote teams—resulted in a highly accessible and responsive platform, demonstrating my ability to see a product through from requirements gathering to final deployment.</p>
                           <p>I am particularly drawn to [Company Name]'s mission because it aligns with my personal philosophy that software should empower its users and facilitate creative evolution. I am confident that my critical thinking abilities, collaborative mindset, and passion for continuous learning make me a strong fit for this role.</p>
                           <p>Thank you for your time and consideration. I look forward to the possibility of discussing how my background, skills, and enthusiasms can contribute to the continued success of your engineering department.</p>
@@ -115,15 +122,11 @@ const App = () => {
           <section id="credentials" className="scroll-mt-24">
               <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Academic Credentials</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-xl font-semibold text-white">Bachelor of Science in Computer Science</h3>
-                      <p className="text-blue-400 mt-1">University of Technology</p>
-                      <p className="text-sm text-gray-500 mt-2">Graduated: May 2023 | GPA: 3.8/4.0</p>
-                  </div>
-                  <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-xl font-semibold text-white">Associate Degree in Software Engineering</h3>
-                      <p className="text-blue-400 mt-1">Community College of Tech</p>
-                      <p className="text-sm text-gray-500 mt-2">Graduated: May 2021</p>
+                      <h3 className="text-xl font-semibold text-white">Advanced Diploma in Computer Programming and Analysis</h3>
+                      <p className="text-blue-400 mt-1">George Brown Polytechnic</p>
+                      <p className="text-sm text-gray-500 mt-2">Graduated: April 2026 | GPA: 3.9/4.0</p>
                   </div>
               </div>
           </section>
