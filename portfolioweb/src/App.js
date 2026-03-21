@@ -41,7 +41,7 @@ const App = () => {
               <span className="text-gray-500 text-sm">Photo</span>
           </div>
           <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">Shaffaq Hai</h1>
-          <p className="text-xl text-gray-400 max-w-2xl">Computer Programming Student & Tech Enthusiast</p>
+          <p className="text-xl text-gray-400 max-w-2xl">Software Developer & Tech Enthusiast</p>
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24 pb-24">
@@ -169,12 +169,12 @@ const App = () => {
                   {/* Spot 4 */}
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
                       <h3 className="text-lg font-bold text-white">Capstone Project</h3>
-                      <p className="text-sm text-gray-400 mt-2">An end-to-end task management system designed specifically for remote engineering teams.</p>
+                      <p className="text-sm text-gray-400 mt-2">A Web Application interface that completes specific scheduling task and manage time conflicts and load balancing. </p>
                       <a href="https://github.com/theLegasea/CBC_BSWA" className="text-blue-400 mt-2 inline-block">Git Hub Link &rarr;</a>
                   </div>
                   {/* Spot 5 */}
                   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-colors">
-                      <h3 className="text-lg font-bold text-white">Microservices Implementation</h3>
+                      <h3 className="text-lg font-bold text-white">Microservices Architecture</h3>
                       <p className="text-sm text-gray-400 mt-2">Designed and implemented a microservices architecture using Java, Spring Boot, Rest API and Docker.</p>
                       <a href="https://gitlab.com/54M44R/COMP3095-Assignment" className="text-blue-400 mt-2 inline-block">Git Hub Link &rarr;</a>
                   </div>
@@ -190,129 +190,82 @@ const App = () => {
                   {/* Project Summary */}
                   <div className="p-6">
                       <h3 className="text-xl font-bold text-blue-400 mb-3">Project Summary</h3>
-                      <p className="text-gray-300">An end-to-end task management system designed specifically for remote engineering teams. It integrates code commits, issue tracking, and real-time chat into a single unified dashboard.</p>
+                      <a href="capstoneFiles/Project Summary.pdf" className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-md transition-colors border border-gray-700 shadow-sm w-fit">
+                          <svg className="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                          Download
+                      </a>
                   </div>
                   
                   {/* Project Vision */}
                   <div className="p-6">
                       <h3 className="text-xl font-bold text-blue-400 mb-3">Project Vision</h3>
-                      <p className="text-gray-300">To bridge the gap between communication tools and code repositories, reducing context-switching and increasing developer productivity by 20%.</p>
+                      <a href="capstoneFiles/Project Vision.pdf" className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-md transition-colors border border-gray-700 shadow-sm w-fit">
+                          <svg className="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                          Download
+                      </a>
                   </div>
 
                   {/* Requirements */}
                   <div className="p-6">
                       <h3 className="text-xl font-bold text-blue-400 mb-3">Project/Business Requirements</h3>
-                      <ul className="list-disc list-inside text-gray-300 space-y-1">
-                          <li>Must support OAuth2 authentication (GitHub, Google).</li>
-                          <li>Real-time data synchronization using WebSockets.</li>
-                          <li>Scalable cloud hosting capable of handling 500+ concurrent users.</li>
-                          <li>Strict adherence to WCAG 2.1 accessibility standards.</li>
-                      </ul>
+                      <a href="capstoneFiles/Business Requirements.pdf" className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-md transition-colors border border-gray-700 shadow-sm w-fit">
+                          <svg className="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                          Download
+                      </a>
                   </div>
 
                   {/* Project Plan */}
                   <div className="p-6">
                       <h3 className="text-xl font-bold text-blue-400 mb-3">Project Plan</h3>
-                      <p className="text-gray-300">Executed over a 16-week period using Agile methodologies. Divided into 8 two-week sprints covering requirement gathering, backend API development, frontend UI construction, testing, and deployment.</p>
+                      <a href="capstoneFiles/Project Plan.pdf" className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-md transition-colors border border-gray-700 shadow-sm w-fit">
+                          <svg className="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                          Download
+                      </a>
                   </div>
 
                   {/* Analysis & Design */}
                   <div className="p-6">
                       <h3 className="text-xl font-bold text-blue-400 mb-3">Requirements Analysis and Design</h3>
-                      <p className="text-gray-300">Utilized UML diagrams to map out user flows and system architecture. Designed a microservices-based backend using Node.js and Docker, with a React.js SPA frontend.</p>
+                      <a href="capstoneFiles/RAD.pdf" className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-md transition-colors border border-gray-700 shadow-sm w-fit">
+                          <svg className="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                          Download
+                      </a>
                   </div>
 
                   {/* Wireframes/Mockups */}
                   <div className="p-6">
                       <h3 className="text-xl font-bold text-blue-400 mb-3">Wireframes/Mockups</h3>
-                      <div className="w-full h-48 bg-gray-800 rounded flex items-center justify-center border border-gray-700">
-                          <span className="text-gray-500 italic">[Insert Wireframe Images / Figma Embed Here]</span>
-                      </div>
+                     <a href="capstoneFiles/Wireframes.pdf" className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-md transition-colors border border-gray-700 shadow-sm w-fit">
+                          <svg className="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                          Download
+                      </a>
                   </div>
 
                   {/* Status Reports */}
                   <div className="p-6">
-                      <h3 className="text-xl font-bold text-blue-400 mb-3">Status Reports</h3>
-                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                          <div className="bg-gray-800 p-3 rounded text-center"><span className="block text-sm text-gray-400">Sprint 1-2</span><span className="text-green-400 font-bold">Completed</span></div>
-                          <div className="bg-gray-800 p-3 rounded text-center"><span className="block text-sm text-gray-400">Sprint 3-4</span><span className="text-green-400 font-bold">Completed</span></div>
-                          <div className="bg-gray-800 p-3 rounded text-center"><span className="block text-sm text-gray-400">Sprint 5-6</span><span className="text-green-400 font-bold">Completed</span></div>
-                          <div className="bg-gray-800 p-3 rounded text-center"><span className="block text-sm text-gray-400">Sprint 7-8</span><span className="text-green-400 font-bold">Completed</span></div>
-                      </div>
+                      <h3 className="text-xl font-bold text-blue-400 mb-3">Status Report (Current Sprint)</h3>
+                      <a href="capstoneFiles/Status Report.pdf" className="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-md transition-colors border border-gray-700 shadow-sm w-fit">
+                          <svg className="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                          Download
+                      </a>
                   </div>
 
                   {/* System Implementation */}
                   <div className="p-6">
                       <h3 className="text-xl font-bold text-blue-400 mb-3">System Implementation</h3>
-                      <p className="text-gray-300 mb-4">The final system was deployed on AWS utilizing EC2, S3 for storage, and RDS for the PostgreSQL database. CI/CD pipelines were established via GitHub Actions.</p>
-                      <a href="#" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition-colors">View Live Demo</a>
+                      <p className="text-gray-300 mb-4">The final system was published with Docker Images, as a standalone web application running offline. </p>
                       <a href="#" className="inline-block bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded transition-colors ml-2">GitHub Repo</a>
                   </div>
 
               </div>
           </section>
 
-          {/* Professional Work Samples */}
-{/*           
-          <section id="professional-work" className="scroll-mt-24">
-              <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Professional Work Samples</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  
-
-                  <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden hover:border-blue-500/50 transition-colors group">
-                      <div className="h-40 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                          <span className="text-gray-500">Project Screenshot</span>
-                      </div>
-                      <div className="p-6">
-                          <h3 className="text-xl font-bold text-white mb-2">Corporate SaaS Dashboard</h3>
-                          <p className="text-sm text-gray-400 mb-4">Developed the frontend metrics dashboard used by 10,000+ daily active users.</p>
-                          <a href="#" className="text-blue-400 hover:text-blue-300 text-sm font-semibold">View Case Study &rarr;</a>
-                      </div>
-                  </div>
-                 
-                  <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden hover:border-blue-500/50 transition-colors group">
-                      <div className="h-40 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                          <span className="text-gray-500">Project Screenshot</span>
-                      </div>
-                      <div className="p-6">
-                          <h3 className="text-xl font-bold text-white mb-2">Mobile Ordering API</h3>
-                          <p className="text-sm text-gray-400 mb-4">Engineered a RESTful Node.js API that handles inventory logic and payment processing.</p>
-                          <a href="#" className="text-blue-400 hover:text-blue-300 text-sm font-semibold">View Code Snippets &rarr;</a>
-                      </div>
-                  </div>
-              
-                  <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden hover:border-blue-500/50 transition-colors group">
-                      <div className="h-40 bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                          <span className="text-gray-500">Project Screenshot</span>
-                      </div>
-                      <div className="p-6">
-                          <h3 className="text-xl font-bold text-white mb-2">Internal CRM Tool</h3>
-                          <p className="text-sm text-gray-400 mb-4">Built a custom CRM solution to manage client onboarding and retention pipelines.</p>
-                          <a href="#" className="text-blue-400 hover:text-blue-300 text-sm font-semibold">View Documentation &rarr;</a>
-                      </div>
-                  </div>
-              </div>
-          </section> */}
+          
 
           {/* Additional Information */}
           <section id="more" className="scroll-mt-24">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                   
-                  {/* Volunteer Work */}
-                  {/* <div className="col-span-1">
-                      <h2 className="text-2xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Community Service</h2>
-                      <ul className="space-y-4">
-                          <li className="bg-gray-900 p-4 rounded-lg border border-gray-800">
-                              <h4 className="font-bold text-white">Code for Good</h4>
-                              <p className="text-sm text-gray-400 mt-1">Mentored high school students in introductory Python and web development basics.</p>
-                          </li>
-                          <li className="bg-gray-900 p-4 rounded-lg border border-gray-800">
-                              <h4 className="font-bold text-white">Local Food Bank IT Setup</h4>
-                              <p className="text-sm text-gray-400 mt-1">Volunteered to set up and maintain the local network and computer lab for a non-profit.</p>
-                          </li>
-                      </ul>
-                  </div> */}
-
                   {/* Letters of Recommendation */}
                   <div className="col-span-1">
                       <h2 className="text-2xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Recommendations</h2>
