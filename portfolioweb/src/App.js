@@ -116,11 +116,11 @@ const App = () => {
                       </h3>
                       <div className="text-sm text-gray-400 space-y-4 font-serif bg-black/20 p-6 rounded-2xl border border-white/5 h-64 overflow-y-auto custom-scrollbar">
                           <p>Dear Hiring Manager,</p>
-                          <p>I am writing to express my strong interest in the Software Engineer position at [Company Name]. With a solid foundation in full-stack development and hands-on experience developing scalable web applications, I am eager to bring my technical expertise and problem-solving skills to your innovative team.</p>
-                          <p>In my recent academic and professional projects, I have successfully designed microservices architectures, optimized complex database queries, and implemented real-time communication systems. My capstone project—an end-to-end task management system for remote teams—resulted in a highly accessible and responsive platform, demonstrating my ability to see a product through from requirements gathering to final deployment.</p>
-                          <p>I am particularly drawn to [Company Name]'s mission because it aligns with my personal philosophy that software should empower its users and facilitate creative evolution. I am confident that my critical thinking abilities, collaborative mindset, and passion for continuous learning make me a strong fit for this role.</p>
+                          <p>I am writing to express my strong interest in the Software Engineer position at ABC Company. With a solid foundation in full-stack development and hands-on experience developing scalable web applications, I am eager to bring my technical expertise and problem-solving skills to your innovative team.</p>
+                          <p>In my recent academic projects, I have successfully designed microservices architectures, utilized React and Javascript to create responsive web elements and utilized various algorithms to design games such as gomuku. My capstone project was a web application for CBC Digital Products Department developed for scheduling tasks, managing timeslot conflicts, performing load balancing, and generating clear, technician-friendly outputs.</p>
+                          <p>I am particularly drawn to ABC Company Name's mission because it aligns with my personal philosophy that software should empower its users and facilitate creative evolution. I am confident that my critical thinking abilities, collaborative mindset, and passion for continuous learning make me a strong fit for this role.</p>
                           <p>Thank you for your time and consideration. I look forward to the possibility of discussing how my background, skills, and enthusiasms can contribute to the continued success of your engineering department.</p>
-                          <p>Sincerely,<br/>Shaffaq Hai</p>
+                          <p>Sincerely,<br/><br/>Shaffaq Hai</p>
                       </div>
                   </div>
               </div>
@@ -151,7 +151,7 @@ const App = () => {
                             <h3 className="text-xl font-bold text-white tracking-tight">George Brown Polytechnic Transcript</h3>
                             <p className="text-sm text-gray-500 mt-4">Fall 2023 - Winter 2026</p>
                         </div>
-                        <a href="#" className="inline-flex items-center text-blue-400 mt-6 font-medium group-hover:text-blue-300 transition-colors relative z-10">
+                        <a href="./Unofficial Transcript.pdf" className="inline-flex items-center text-blue-400 mt-6 font-medium group-hover:text-blue-300 transition-colors relative z-10">
                             View Transcript
                             <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                         </a>
@@ -237,7 +237,7 @@ const App = () => {
                           <li className="group bg-white/5 p-5 rounded-2xl border border-white/5 flex items-center justify-between hover:bg-white/10 transition-colors">
                               <div>
                                   <h4 className="font-bold text-white">Andrew Sas</h4>
-                                  <p className="text-sm text-gray-400 mt-1">Junior Soft Engineer</p>
+                                  <p className="text-sm text-gray-400 mt-1">Junior Software Engineer</p>
                               </div>
                               <a href="#" className="text-gray-500 group-hover:text-blue-400 transition-colors p-2 bg-black/20 rounded-full">
                                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
@@ -268,7 +268,7 @@ const App = () => {
                               </div>
                               <div>
                                   <h4 className="font-bold text-white text-lg">Dean's List</h4>
-                                  <p className="text-sm text-gray-400 mt-1">Fall 2020 - Spring 2023</p>
+                                  <p className="text-sm text-gray-400 mt-1">Fall 2023 - Spring 2026</p>
                               </div>
                           </li>
                       </ul>
