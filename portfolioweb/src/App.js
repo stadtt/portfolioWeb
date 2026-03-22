@@ -170,7 +170,7 @@ const App = () => {
                       { title: 'Gomoku', desc: 'Created Gomuku utilizing Depth First Search algorithm for optimal move selection.', link: 'https://github.com/alwaysandy/Gomoku-MinMax' },
                       { title: 'Employee Management System', desc: 'Using React and Node.js to build a full-stack application for managing employee information and performance reviews.', link: 'https://github.com/stadtt/101500534_COMP3123_Assignment2' },
                       { title: 'Capstone Project', desc: 'A Web Application interface that completes specific scheduling task and manage time conflicts and load balancing.', link: 'https://github.com/theLegasea/CBC_BSWA' },
-                      { title: 'Microservices Architecture', desc: 'Designed and implemented a microservices architecture using Java, Spring Boot, Rest API and Docker.', link: 'https://gitlab.com/54M44R/COMP3095-Assignment' },
+                      { title: 'Microservices Architecture', desc: 'Designed and implemented a microservices architecture using Java, Spring Boot, Rest API and Docker.', link: 'https://gitlab.com/stadtt/comp3095_fall2025' },
                   ].map((project, idx) => (
                       <div key={idx} className="group bg-white/[0.02] p-8 rounded-3xl border border-white/5 hover:border-white/20 hover:bg-white/[0.04] transition-all duration-500 shadow-2xl flex flex-col justify-between">
                           <div>
