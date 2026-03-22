@@ -103,8 +103,8 @@ const App = () => {
                       <h3 className="text-2xl font-bold text-white mb-3 tracking-tight">My Resume</h3>
                       <p className="text-gray-400 mb-8 max-w-sm">View my complete work history, education, and technical skills.</p>
                       <div className="flex flex-wrap justify-center gap-4">
-                          <a href="/resume.docx" download="Shaffaq_Hai_Resume.docx" className="bg-white text-black hover:bg-gray-200 font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.1)]">Download DOCX</a>
-                          <a href="/resume.docx" download="Shaffaq_Hai_Resume.docx" className="bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105">Download PDF</a>
+                          <a href={`${process.env.PUBLIC_URL}/resume.docx`} download="Shaffaq_Hai_Resume.docx" className="bg-white text-black hover:bg-gray-200 font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.1)]">Download DOCX</a>
+                          <a href={`${process.env.PUBLIC_URL}/resume.docx`} download="Shaffaq_Hai_Resume.docx" className="bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105">Download PDF</a>
                       </div>
                   </div>
 
@@ -151,7 +151,7 @@ const App = () => {
                             <h3 className="text-xl font-bold text-white tracking-tight">George Brown Polytechnic Transcript</h3>
                             <p className="text-sm text-gray-500 mt-4">Fall 2023 - Winter 2026</p>
                         </div>
-                        <a href="./Unofficial Transcript.pdf" className="inline-flex items-center text-blue-400 mt-6 font-medium group-hover:text-blue-300 transition-colors relative z-10">
+                        <a href={`${process.env.PUBLIC_URL}/Unofficial Transcript.pdf`} target="_blank" rel="noreferrer" className="inline-flex items-center text-blue-400 mt-6 font-medium group-hover:text-blue-300 transition-colors relative z-10">
                             View Transcript
                             <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                         </a>
@@ -203,7 +203,7 @@ const App = () => {
                   ].map((item, idx) => (
                       <div key={idx} className="p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-white/[0.01] transition-colors">
                           <h3 className="text-lg font-bold text-gray-200 tracking-tight">{item.title}</h3>
-                          <a href={`capstoneFiles/${item.file}`} className="inline-flex items-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white text-sm font-medium rounded-full transition-all border border-white/10 shadow-sm w-fit group">
+                          <a href={`${process.env.PUBLIC_URL}/capstoneFiles/${item.file}`} target="_blank" rel="noreferrer" className="inline-flex items-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white text-sm font-medium rounded-full transition-all border border-white/10 shadow-sm w-fit group">
                               <svg className="w-4 h-4 mr-2 text-gray-400 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
                               Download
                           </a>
