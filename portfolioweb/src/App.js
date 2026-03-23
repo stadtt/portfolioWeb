@@ -62,9 +62,9 @@ const App = () => {
               <div className="bg-white/[0.02] p-8 md:p-10 rounded-[2rem] border border-white/5 backdrop-blur-md leading-relaxed shadow-2xl text-gray-400 text-lg">
                   <p>Hello! I'm an enthusiastic Computer Programming student currently pursuing my diploma in Computer Programming at George Brown Polytechnic. 
                     My journey into tech started with a deep curiosity about how games are developed. This curiosity then expanded outwards towards software architecture.
-                     Currently, I'm immersing myself in coursework that spans data structures, full-stack web development, and machine learning. I enjoy tackling logic puzzles and transforming creative ideas into functional, clean code.</p>
+                     Currently, I'm immersing myself in course work that spans data structures, full-stack web development, and machine learning. I enjoy tackling logic puzzles and transforming creative ideas into functional, clean code.</p>
                   
-                  <p className="mt-6">Beyond the classroom, I spend my time exploring hackathons, delving into emerging frameworks, and building personal projects to sharpen my skills.
+                  <p className="mt-6">Beyond the classroom, I spend my time exploring new programming languagues, delving into emerging frameworks, and building personal projects to sharpen my skills.
                      I am eager to transition my academic foundation into real-world applications and am actively seeking opportunities to learn, grow, and contribute alongside experienced engineering teams.</p>
               </div>
           </section>
