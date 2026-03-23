@@ -209,7 +209,7 @@ const App = () => {
                               <h3 className="text-lg font-bold text-gray-200 tracking-tight">{item.title}</h3>
                               <p className="text-sm text-gray-400 mt-2 leading-relaxed">{item.summary}</p>
                           </div>
-                          <a href={`${process.env.PUBLIC_URL}/capstoneFiles/${item.file}`} target="_blank" rel="noreferrer" className="inline-flex items-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white text-sm font-medium rounded-full transition-all border border-white/10 shadow-sm w-fit shrink-0 group">
+                          <a href="https://github.com/theLegasea/CBC_BSWA.git" target="_blank" rel="noreferrer" className="inline-flex items-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white text-sm font-medium rounded-full transition-all border border-white/10 shadow-sm w-fit shrink-0 group">
                               <svg className="w-4 h-4 mr-2 text-gray-400 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
                               Download
                           </a>
