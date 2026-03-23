@@ -44,12 +44,14 @@ const App = () => {
 
       {/* Hero Section */}
       <header className="relative pt-40 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col items-center text-center z-10">
-          <div className="w-32 h-32 bg-white/[0.03] rounded-full mb-8 border border-white/10 overflow-hidden flex items-center justify-center shadow-2xl backdrop-blur-md relative group">
-              <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <span className="text-gray-500 text-sm font-medium relative z-10">Photo</span>
-          </div>
+        
           <h1 className="text-6xl sm:text-7xl font-extrabold mb-6 tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-200 to-gray-600">Shaffaq Hai</h1>
           <p className="text-xl sm:text-2xl text-blue-400/80 max-w-2xl font-light tracking-wide">Software Developer & Tech Enthusiast</p>
+          <div className="mt-6 flex justify-center space-x-6">
+              <a href="https://www.linkedin.com/in/shaffaq-hai-97621929b" className="text-gray-500 hover:text-white transition-colors">LinkedIn</a>
+              <a href="https://github.com/stadtt" className="text-gray-500 hover:text-white transition-colors">GitHub</a>
+              <a href="mailto:shaffaq.hai@georgebrown.ca" className="text-gray-500 hover:text-white transition-colors">Email</a>
+          </div>
       </header>
 
       <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32 pb-32 z-10">
@@ -193,17 +195,20 @@ const App = () => {
               <div className="bg-white/[0.02] rounded-3xl border border-white/5 overflow-hidden divide-y divide-white/5 backdrop-blur-md shadow-2xl">
                   
                   {[
-                      { title: 'Project Summary', file: 'Project Summary.pdf' },
-                      { title: 'Project Vision', file: 'Project Vision.pdf' },
-                      { title: 'Project/Business Requirements', file: 'Business Requirements.pdf' },
-                      { title: 'Project Plan', file: 'Project Plan.pdf' },
-                      { title: 'Requirements Analysis and Design', file: 'RAD.pdf' },
-                      { title: 'Wireframes/Mockups', file: 'Wireframes.pdf' },
-                      { title: 'Status Report (Current Sprint)', file: 'Status Report.pdf' },
+                      { title: 'Project Summary', file: 'Project Summary.pdf', summary: 'A high-level overview of the requested Broadcast Scheduling System for CBCs Digital Products department. It highlights the goal of replacing manual scheduling by automating data formatting into a web portal and database.' },
+                      { title: 'Project Vision', file: 'Project Vision.pdf', summary: 'This document establishes the foundational goals, scope, and system features of the application. It focuses on the business need to reduce employee workload by replacing manual Excel workflows with a dedicated scheduling tool.' },
+                      { title: 'Project/Business Requirements', file: 'Business Requirements.pdf', },
+                      { title: 'Project Plan', file: 'Project Plan.pdf', summary: 'This document outlines the execution strategy, timeline, and team responsibilities for the CBC-BSWA project. It details the plan to build a web application that automates broadcast scheduling and resolves timeslot conflicts.' },
+                      { title: 'Requirements Analysis and Design', file: 'RAD.pdf', },
+                      { title: 'Wireframes/Mockups', file: 'Wireframes.pdf',  },
+                      { title: 'Status Report (Current Sprint)', file: 'Status Report.pdf', },
                   ].map((item, idx) => (
-                      <div key={idx} className="p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-white/[0.01] transition-colors">
-                          <h3 className="text-lg font-bold text-gray-200 tracking-tight">{item.title}</h3>
-                          <a href={`${process.env.PUBLIC_URL}/capstoneFiles/${item.file}`} target="_blank" rel="noreferrer" className="inline-flex items-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white text-sm font-medium rounded-full transition-all border border-white/10 shadow-sm w-fit group">
+                      <div key={idx} className="p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-6 hover:bg-white/[0.01] transition-colors">
+                          <div className="flex-1 pr-4">
+                              <h3 className="text-lg font-bold text-gray-200 tracking-tight">{item.title}</h3>
+                              <p className="text-sm text-gray-400 mt-2 leading-relaxed">{item.summary}</p>
+                          </div>
+                          <a href={`${process.env.PUBLIC_URL}/capstoneFiles/${item.file}`} target="_blank" rel="noreferrer" className="inline-flex items-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white text-sm font-medium rounded-full transition-all border border-white/10 shadow-sm w-fit shrink-0 group">
                               <svg className="w-4 h-4 mr-2 text-gray-400 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
                               Download
                           </a>
@@ -239,18 +244,18 @@ const App = () => {
                                   <h4 className="font-bold text-white">Andrew Sas</h4>
                                   <p className="text-sm text-gray-400 mt-1">Junior Software Engineer</p>
                               </div>
-                              <a href="#" className="text-gray-500 group-hover:text-blue-400 transition-colors p-2 bg-black/20 rounded-full">
+                              {/* <a href="#" className="text-gray-500 group-hover:text-blue-400 transition-colors p-2 bg-black/20 rounded-full">
                                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
-                              </a>
+                              </a> */}
                           </li>
                           <li className="group bg-white/5 p-5 rounded-2xl border border-white/5 flex items-center justify-between hover:bg-white/10 transition-colors">
                               <div>
                                   <h4 className="font-bold text-white">Mark Johnson</h4>
-                                  <p className="text-sm text-gray-400 mt-1">Senior Lead Engineer</p>
+                                  <p className="text-sm text-gray-400 mt-1">Senior Software Engineer</p>
                               </div>
-                              <a href="#" className="text-gray-500 group-hover:text-blue-400 transition-colors p-2 bg-black/20 rounded-full">
+                              {/* <a href="#" className="text-gray-500 group-hover:text-blue-400 transition-colors p-2 bg-black/20 rounded-full">
                                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
-                              </a>
+                              </a> */}
                           </li>
                       </ul>
                   </div>
