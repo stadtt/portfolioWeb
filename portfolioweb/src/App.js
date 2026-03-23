@@ -48,6 +48,7 @@ const App = () => {
           <h1 className="text-6xl sm:text-7xl font-extrabold mb-6 tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-white via-gray-200 to-gray-600">Shaffaq Hai</h1>
           <p className="text-xl sm:text-2xl text-blue-400/80 max-w-2xl font-light tracking-wide">Software Developer & Tech Enthusiast</p>
           <div className="mt-6 flex justify-center space-x-6">
+              <p className="text-gray-500 hover:text-white transition-colors" >Toronto, ON</p>
               <a href="https://www.linkedin.com/in/shaffaq-hai-97621929b" className="text-gray-500 hover:text-white transition-colors">LinkedIn</a>
               <a href="https://github.com/stadtt" className="text-gray-500 hover:text-white transition-colors">GitHub</a>
               <a href="mailto:shaffaq.hai@georgebrown.ca" className="text-gray-500 hover:text-white transition-colors">Email</a>
