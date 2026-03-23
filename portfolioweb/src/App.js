@@ -104,7 +104,7 @@ const App = () => {
                       <p className="text-gray-400 mb-8 max-w-sm">View my complete work history, education, and technical skills.</p>
                       <div className="flex flex-wrap justify-center gap-4">
                           <a href={`${process.env.PUBLIC_URL}/resume.docx`} download="Shaffaq_Hai_Resume.docx" className="bg-white text-black hover:bg-gray-200 font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.1)]">Download DOCX</a>
-                          <a href={`${process.env.PUBLIC_URL}/resume.docx`} download="Shaffaq_Hai_Resume.docx" className="bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105">Download PDF</a>
+                          <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download="Shaffaq_Hai_Resume.docx" className="bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105">Download PDF</a>
                       </div>
                   </div>
 
